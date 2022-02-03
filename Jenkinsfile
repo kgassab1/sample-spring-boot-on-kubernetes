@@ -6,7 +6,7 @@ pipeline {
 		stage('Checkout') {
 			steps {
 				script {
-					git url: 'https://github.com/piomin/sample-spring-boot-on-kubernetes.git', credentialsId: 'github_credentials'
+					git url: 'https://github.com/kgassab1/sample-spring-boot-on-kubernetes.git', credentialsId: ''
 					sh 'ls -la'
 				}
 			}
